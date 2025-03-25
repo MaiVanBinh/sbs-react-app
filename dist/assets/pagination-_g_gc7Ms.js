@@ -1,0 +1,1 @@
+const t=e=>({page:e.page.value-1,size:e.size.value,sort:e.sortColumns.value}),l={default:(e,s)=>({...e,...t(s)})},a=(e,s)=>({isShow:!0,page:s.page.value,totalPages:e.totalPages,totalElements:e.totalElements,numberOfElements:e.numberOfElements,size:s.size.value});export{a as b,l as w};

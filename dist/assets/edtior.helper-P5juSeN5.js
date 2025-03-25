@@ -1,0 +1,1 @@
+import{A as T}from"./article-type.code-5cb8riL1.js";import{b2 as i}from"./index-eLyz9_Ts.js";const r={STRAIGHT:"straight",REPORT:"report",EDITOR:"editor"},R=(t,o)=>t===i.Broadcasting.id?o===T.STRAIGHT.id?r.STRAIGHT:r.REPORT:r.EDITOR;export{r as E,R as g};

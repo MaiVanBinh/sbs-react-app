@@ -1,0 +1,1 @@
+import{aO as s,aD as t}from"./index-eLyz9_Ts.js";const p=s("app-auth",{actions:{async fetchAppAuth(){try{return await t().appAuth.basic.findAll()}catch(r){console.error("store: fetchAppAuth() Error ",r)}}}});export{p as u};

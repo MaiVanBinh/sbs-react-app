@@ -1,0 +1,73 @@
+
+
+@media print {
+    @page {
+        /* size: 8cm 13cm; */
+        /*custom size*/
+        size: A4;
+        /* margin: 0; */
+    }
+    table {
+     width: 100%;   
+    }
+ 
+    body {
+        /* 배경색 설정 */
+        -webkit-print-color-adjust:exact;   /* chrome, safari 적용*/
+        print-color-adjust:exact;
+
+        margin: 0 2cm 4cm 2cm;
+        line-height: 1.3;
+        background: #fff !important;
+        color: #000;
+        font-size: 9pt;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+        font-size: 20pt;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 14pt;
+        /* margin-top: 25px; */
+    }
+
+    .table {
+        display: table;
+        width: 100%;
+        border-width: 1px;
+        border: 1pt solid;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .border {
+        border: 1px solid;
+    }
+    .border-collapse {
+        border-collapse: collapse;
+    }
+    .border-gray {
+        --tw-border-opacity: 1;
+        border-color: rgb(55 65 81 / var(--tw-border-opacity)) !important;
+    }
+    
+    .bg-gray-200 {
+        background-color: rgb(229 231 235);
+    }
+    .text-center {
+        text-align: center;
+    }
+    .items-center {
+        align-items: center;
+    }
+    .align-middle {
+        vertical-align: middle; /* 세로 중앙 정렬 */
+    }
+    .w-full {
+        width: 100%;
+    }
+}

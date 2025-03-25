@@ -1,0 +1,1 @@
+const e=(t,r="-")=>t===""||t===void 0||t===null||typeof t=="number"&&Number.isNaN(t)||Array.isArray(t)&&t.length===0||typeof t=="object"&&Object.keys(t||{}).length===0?r:String(t),s=t=>t.filter(r=>r!=null),i=t=>Object.fromEntries(Object.entries(t).filter(([r,n])=>n!==null&&n!==""));export{e as d,i as r,s as w};

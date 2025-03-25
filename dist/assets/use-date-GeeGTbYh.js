@@ -1,0 +1,1 @@
+import{ae as r}from"./index-eLyz9_Ts.js";const Y={"yyyy-MM-dd":"YYYY-MM-DD","yyyy-MM-dd HH:mm":"YYYY-MM-DD HH:mm","yyyy-MM-dd HH:mm:ss":"YYYY-MM-DD HH:mm:ss"},a=()=>{const M=(t,y="YYYY-MM-DD")=>t?r(t).format(y):"";return{formatDate:M,convertDateFormat:(t,y="yyyy-MM-dd")=>M(t,Y[y])}};export{a as u};

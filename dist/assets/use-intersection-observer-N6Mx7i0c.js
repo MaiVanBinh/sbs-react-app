@@ -1,0 +1,1 @@
+import{k as t,E as o}from"./index-eLyz9_Ts.js";function u(s){const e=t(null);return{observerTarget:e,setupObserver:()=>{const r=new IntersectionObserver(async n=>{n[0].isIntersecting&&await s.onIntersect()});e.value&&r.observe(e.value),o(()=>{r.disconnect()})}}}export{u};

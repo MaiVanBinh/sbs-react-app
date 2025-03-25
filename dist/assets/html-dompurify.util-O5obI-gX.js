@@ -1,0 +1,1 @@
+import{p as n}from"./purify.es-OZOo_0xz.js";const i=async a=>{try{const r=JSON.parse(a),e=Array.isArray(r)?r:[r];return await n.sanitize(e.map(t=>t.replace(/\n/g,"<br>")).join(""))}catch(r){return console.warn("JSON parsing failed",r),n.sanitize(a.replace(/\n/g,"<br>"))}};export{i as h};

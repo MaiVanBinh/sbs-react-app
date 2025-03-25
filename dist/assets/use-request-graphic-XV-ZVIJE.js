@@ -1,0 +1,1 @@
+const r={pending:"gray",working:"blue",reject:"red",approve:"green"},a=e=>r[e],t={pending:"gray",working:"blue",checking:"blue",reviewing:"blue",reject:"red",approve:"primary"},u=e=>t[e];export{u as a,a as u};

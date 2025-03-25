@@ -1,0 +1,1 @@
+function c(){return{scrollGrid:(o,t)=>{if(!o)return;const r=o.querySelector(".ag-center-cols-viewport"),e=300;if(!r)return;const l=r.scrollLeft;t==="left"?r.scrollTo({left:l-e,behavior:"smooth"}):t==="right"&&r.scrollTo({left:l+e,behavior:"smooth"})}}}export{c as u};

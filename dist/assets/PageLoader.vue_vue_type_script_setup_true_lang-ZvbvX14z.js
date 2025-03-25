@@ -1,0 +1,1 @@
+import{d as t,a,c,Y as s,G as n,c1 as o}from"./index-eLyz9_Ts.js";const r={class:"flex inset-0 justify-center"},i={class:"flex items-center justify-center my-4"},d=t({__name:"PageLoader",setup(_){return(l,e)=>(a(),c("div",r,[s("div",i,[n(o,{"fill-white":"",class:"text-primary"}),e[0]||(e[0]=s("span",{class:"sm:text-xs text-xs"},"로딩중...",-1))])]))}});export{d as _};

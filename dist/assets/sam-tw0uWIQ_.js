@@ -1,0 +1,1 @@
+import{aO as r,aD as e}from"./index-eLyz9_Ts.js";const t=r("sam",{actions:{async fetchSamChannelGroup(){try{return await e().sam.basic.findAllChannel()}catch(s){console.error(s)}},async fetchSamArticle(s){try{return await e().sam.basic.findOne(s)}catch(a){console.error(a)}}}});export{t as u};
